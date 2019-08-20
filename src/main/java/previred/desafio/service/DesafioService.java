@@ -24,7 +24,7 @@ public class DesafioService {
                 fechasRecibidas.add(d.toString());
             }
 
-            while(!fechaCreacion.isEqual(fechaFinal)) {
+            while(!fechaCreacion.isAfter(fechaFinal)) {
 
                 if(!fechasRecibidas.contains(fechaCreacion.toString())) {
                     fechasFaltantes.add(fechaCreacion);
