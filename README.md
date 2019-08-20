@@ -64,12 +64,24 @@ SOLUCION NIVEL 3
 
 SOLUCION FUE DESARROLLADA CON SPRINGBOOT Y GRADLE CON INTELLIJIDEA
 
+DESCOMPRIMIR PROYECTO, Y DESDE LA RAIZ DEL PROYECTO EJECUTAMOS DESDE CONSOLA EL COMANDO:
+
+./gradlew bootJar.
+
+EL EJECUTABLE .JAR SE GENERARÁ EN LA CARPETA CREADA /BUILD/LIBS/
+
+NOS UBICAMOS EN /BUILD/LIBS DESDE LA CONSOLA Y EJECUTAMOS EL SIGUIENTE COMANDO:
+
+java -jar Desafio_Uno-0.0.1-SNAPSHOT
+
 ENDPOINT CONSUMIENDO LA API: http://localhost:8086/ms-previred/desafio/get
 ENDPOINT DE PRUEBA QUE RECIBE JSON DE ENTRADA: http://localhost:8086/ms-previred/desafio/test
 
 SE ADJUNTA ARCHIVO JSON DE POSTMAN PARA REALIZAR LAS PRUEBAS. NOMBRE DEL ARCHIVO: PREVIRED.POSTMAN_COLLECTION 
 
+
+TAMBIEN SE PUEDE EJECUTAR LA APLICACION DESDE EL IDE INTELLIJIDEA
 1. Descargar archivo zip "Desafio_Uno" y descomprimir
 2. Abrir proyecto desde IntelliJIdea como un proyecto Gradle.
-3. Ejecutar aplicacion mediante SpringBoot.
+3. Ejecutar aplicacion mediante SpringBoot o generar el jar ejecutable con BootJar.
 4. Verificar desde Postman con el endpoint http://localhost:8086/ms-previred/desafio/get 
