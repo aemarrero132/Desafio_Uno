@@ -33,6 +33,7 @@ El desafío puede ser resuelto de tres maneras distintas.
 Tú eliges cuál es la que más te acomoda entre estos tres niveles:
 
 
+
 ## Nivel 3:
 
 Implementar un nuevo servicio REST. Este servicio REST debe invocar al servicio GDD y entregar la respuesta en formato JSON con las fechas recibidas y las fechas faltantes.
